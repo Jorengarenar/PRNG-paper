@@ -8,7 +8,7 @@ TESTDATA := ${DATA}/testing.dat
 
 .PHONY: dieharder ent  view clean
 
-${PAPER}: ${OUTDIR} ${PAPRNAME}.latex ref.bib ${DATA}
+${PAPER}: ${OUTDIR} ${PAPRNAME}.latex references.bib ${DATA}
 	latexmk -outdir=$(dir ${PAPER}) -pdfxe -interaction=nonstopmode ${PAPRNAME}.latex
 
 ${PROGRAM}: ${OUTDIR} ${BINNAME}.cpp
