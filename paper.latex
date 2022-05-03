@@ -76,7 +76,7 @@
 \renewcommand*{\bibfont}{\footnotesize}
 
 
-\title{Pseudorandom number generator}
+\title{A brief overview of pseudo-random number generators and testing of our own simple generator}
 \author{Jakub Łukasiewicz}
 \date{\today}
 
